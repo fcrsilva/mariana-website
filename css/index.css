@@ -10,18 +10,17 @@
 }
 .name{
 
-    
     line-height: 1.2;
     color: black;
     margin: 15px;
     margin-left: 0px;
-    font-size: 16pt;
-    font-weight: 400;
+    font-size: 17pt;
+    font-weight: 200;
     }
 
 .namebox{
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
     
 }
 
@@ -32,6 +31,15 @@ padding-bottom: 20px;
 
 
 a:hover{
-    text-decoration: dashed underline;
     color: black;
 }
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .name {
+        font-size: 0.95em; /* 0.8x default size */
+        }
+        .namebox{
+        padding-top: 7px;    
+        padding-bottom: 8px; 
+               }
+    }
