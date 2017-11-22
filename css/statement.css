@@ -1,0 +1,35 @@
+    @font-face {
+    font-family: '/Akkurat1';
+    src: url('/font/Akkurat.eot');
+    src: url('/font/Akkurat.eot?#iefix') format('embedded-opentype'),
+    url('/font/Akkurat.woff2') format('woff2'),
+    url('/font/Akkurat.woff') format('woff'),
+    url('/font/Akkurat.ttf') format('truetype'),
+    url('/font/Akkurat.svg#Akkurat') format('svg');
+    font-style: normal;
+}
+.name {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: black;
+    margin: 15px;
+    margin-left: 0px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.namebox{
+padding-top: 20px;
+padding-bottom: 20px;
+    
+}
+
+a:hover{
+    text-decoration: dashed underline;
+    color: black;
+}
+
+
+.fixedwidth{
+width: 300px;
+}

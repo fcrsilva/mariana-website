@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Akkurat1';
+    src: url('/font/Akkurat.eot');
+    src: url('/font/Akkurat.eot?#iefix') format('embedded-opentype'),
+    url('/font/Akkurat.woff2') format('woff2'),
+    url('/font/Akkurat.woff') format('woff'),
+    url('/font/Akkurat.ttf') format('truetype'),
+    url('/font/Akkurat.svg#Akkurat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
